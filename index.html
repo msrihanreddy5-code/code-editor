@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini Code Editor</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Code Editor</h1>
+    <div class="editors">
+      <div>
+        <h3>HTML</h3>
+        <textarea id="htmlCode" placeholder="Write HTML here..."></textarea>
+      </div>
+      <div>
+        <h3>CSS</h3>
+        <textarea id="cssCode" placeholder="Write CSS here..."></textarea>
+      </div>
+      <div>
+        <h3>JavaScript</h3>
+        <textarea id="jsCode" placeholder="Write JavaScript here..."></textarea>
+      </div>
+    </div>
+    <button id="runBtn">▶ Run Code</button>
+    <iframe id="output"></iframe>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
